@@ -1,0 +1,49 @@
+:root {
+    --text-pink: #f22efd;
+    --text-purple: #c36fe4;
+}
+
+.welcome-info {
+    background: url("https://www.rossoneriblog.com/wp-content/uploads/2020/09/Gallery_Milan_SPAL_4-Copy-1.jpg");
+    /*background: url("https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/1631543879420-L2AEERO82XWLK5YQ9W6Z/invite+Image.png");*/
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.text-pink {
+    color: var(--text-pink);
+}
+
+.text-purple {
+    color: var(--text-purple);
+}
+
+.btn-primary {
+    background-color: #818f6d;
+    transition: background-color 0.3s;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    background-color: #3c4233;
+}
+
+body {
+    /*background-color: #818f6d;*/
+    background: linear-gradient(to bottom, #818f6d, #97a57f);
+}
+
+.card-link {
+    font-weight: bold;
+    color: #3c4233;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+

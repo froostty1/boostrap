@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Football shop</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/_custom.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="images/ball.png" href="#">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#loan">Loan our Player</a></li>
+                            <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="#about">About Us</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#adminModal">
+                    Admin
+                </button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Modal -->
+<div class="modal fade" id="adminModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Admin section</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <a class="nav-link text-white" href="admin.html">Login</a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main>
+    <section class="welcome-info">
+        <div class="container text-center">
+            <h1 class="text-center p-3"> Explore our players</h1>
+            <p>The most exciting players ever</p>
+        </div>
+    </section>
+
+    <section id="loan">
+        <div class="container px-4 text-center">
+            <h2 class="text-center m-5">Loan our Player</h2>
+            <div class="row gx-5 gy-5">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/pogba.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Paul Pogba</h5>
+                            <p class="card-text">Is a French midfielder, 2018 World Cup champion, known for his
+                                technique, creativity and his time at Juventus and Manchester United.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/grizi3.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Antoine Griezmann</h5>
+                            <p class="card-text">Is a French footballer, a striker, known for his technique,
+                                intelligence and goal-scoring ability. He won the 2018 World Cup.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/Antony_2022.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Antony</h5>
+                            <p class="card-text">Is a Brazilian footballer who plays as a winger for Real Betis, known
+                                for his speed, technique and unexpected tricks on the pitch.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5 gy-5 mt-3">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/ibrahimovic.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Zlatan Ibrahimovic</h5>
+                            <p class="card-text">Is a famous Swedish footballer, known for his acrobatic goals, strong
+                                personality, self-confidence and success at clubs such as AC Milan.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/Jackson.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Nicolas Jackson</h5>
+                            <p class="card-text">Is a talented Senegalese striker who plays for Chelsea. He excels with
+                                speed, dribbling and the ability to create and finish chances.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/reus.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Marco Reus</h5>
+                            <p class="card-text">Is a German attacking midfielder. He is famous for his great technique,
+                                vision and bad luck with frequent injuries during his career.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="text-center mt-5">Contact Us</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Team name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter team name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Type your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-4">Submit</button>
+                    </form>
+                </div>
+
+
+                 <div class="col-md-6 text-center align-content-center">
+                     <div class="card mx-5 p-3">
+                     <h4>Our Location</h4>
+                     <p>123 Football Street, London, UK</p>
+
+                     <h4>Email</h4>
+                     <p>contact@footballworld.com</p>
+                    </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+
+     <section class="py-5" id="about">
+         <div class="container m-auto">
+             <h2 class="text-center mb-5">About Us</h2>
+             <div class="row">
+                 <div class="col-md-4 mb-sm-5">
+                     <div class="card h-100 text-center shadow-sm ">
+                         <!--<img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3 " alt="Autor webu">-->
+                        <h3 class="mt-4  fs-6 fw-normal">Website author</h3>
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">David Mikéska</h5>
+                            <p class="card-text">Website founder, developer and football fan and football transfer
+                                enthusiast.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-sm-5">
+                    <div class="card h-100 text-center shadow-sm">
+                        <!--<img src="https://brandslogos.com/wp-content/uploads/thumbs/fly-emirates-logo.png" class="card-img-top rounded-circle mx-auto mt-3" alt="Člen týmu">-->
+                        <h3 class="mt-4  fs-6 fw-normal">Owner</h3>
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">Oliver Blake</h5>
+                            <p class="card-text">Specialist in selling football players to all countries. Big football
+                                lover</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-sm-5">
+                    <div class="card h-100 text-center shadow-sm">
+                        <!--<img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Sponzor">-->
+                        <h3 class="mt-4 fs-6 fw-normal">Sponsor</h3>
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">Fly Emirates</h5>
+                            <p class="card-text">It is a prestigious airline providing quality and comfortable air
+                                services around the world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="bg-white text-black text-center py-3">
+    <p>Football season 2024/25 see you soon</p>
+</footer>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
