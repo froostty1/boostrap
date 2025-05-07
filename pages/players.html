@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Players</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/_custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-sm-4 col-md-3 col-lg-2 d-flex flex-column bg-dark p-4 vh-100">
+            <h1 class="text-white">Admin Panel</h1>
+            <hr class="text-white">
+            <nav class="d-flex flex-column mb-auto">
+                <a class="nav-link text-white py-2 px-0" href="dashboard.html"><i class="fa fa-dashboard"></i> Dashboard</a>
+                <a class="nav-link text-white py-2 px-0" href=""><i class="fa fa-line-chart"></i> Players</a>
+                <a class="nav-link text-white py-2 px-0" href="orders.html"><i class="fa fa-credit-card"></i> Orders</a>
+                <a class="nav-link text-white py-2 px-0" href="users.html"><i class="fa fa-group"></i> Users</a>
+            </nav>
+            <hr class="text-white">
+            <div class=" text-white" >
+                <a class="nav-link" href="user-profile.html">
+                <h2>David Mikéska</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-8 col-md-9 col-lg-10 vh-100 p-4">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2>Players</h2>
+                    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#addProductModal">Add Player</button>
+                </div>
+
+
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Contract</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Zlatan Ibrahimovic</td>
+                    <td>Striker</td>
+                    <td>€2.5m</td>
+                    <td>0y</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle px-4" data-bs-toggle="dropdown">Actions</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accept</a></li>
+                                <li><a class="dropdown-item" href="#">Details</a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Reject</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Striker</td>
+                    <td>€22m</td>
+                    <td>2y</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle px-4" data-bs-toggle="dropdown">Actions</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accept</a></li>
+                                <li><a class="dropdown-item" href="#">Details</a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Reject</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Nicolas Jackson</td>
+                    <td>Striker</td>
+                    <td>€55m</td>
+                    <td>8y</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle px-4" data-bs-toggle="dropdown">Actions</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accept</a></li>
+                                <li><a class="dropdown-item" href="#">Details</a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Reject</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Paul Pogba</td>
+                    <td>Midfielder</td>
+                    <td>€5m</td>
+                    <td>0y</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle px-4" data-bs-toggle="dropdown">Actions</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accept</a></li>
+                                <li><a class="dropdown-item" href="#">Details</a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Reject</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Antony</td>
+                    <td>Striker</td>
+                    <td>€20m</td>
+                    <td>3y</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle px-4" data-bs-toggle="dropdown">Actions</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accept</a></li>
+                                <li><a class="dropdown-item" href="#">Details</a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Reject</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Marco Reus</td>
+                    <td>Midfielder</td>
+                    <td>€2.5m</td>
+                    <td>2y</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle px-4" data-bs-toggle="dropdown">Actions</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accept</a></li>
+                                <li><a class="dropdown-item" href="#">Details</a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Reject</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form action="/add-product" method="POST">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Add Player</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3"><label class="form-label">Name</label><input type="text" name="name" class="form-control"></div>
+                        <div class="mb-3"><label class="form-label">Position</label><input type="text" name="position" class="form-control"></div>
+                        <div class="mb-3"><label class="form-label">Price</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" name="price" class="form-control" step="0.01">
+                            </div>
+                        </div>
+                        <div class="mb-3"><label class="form-label">Contract</label><input type="number" name="contract" class="form-control"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>
